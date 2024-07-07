@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Coding Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #question {
+            margin: 20px 0;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Birthday Coding Game!</h1>
+    <div id="game">
+        <p id="question">Answer the following questions to reveal the birthday wish.</p>
+        <input type="text" id="answer" placeholder="Your answer here">
+        <button onclick="checkAnswer()">Submit</button>
+    </div>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
